@@ -25,12 +25,17 @@
     		android:layout_height="wrap_content"
     		android:gravity="center_vertical"
     		android:layout_gravity="bottom">
-    		<RadioButton     			
+			<RadioButton
+				android:id="@+id/MenuButtonDiagnose"
+				android:text="@string/menu_diagnose"
+				android:drawableTop="@drawable/menu_diagnose_selector"
+				style="@style/TabRadioStyle"
+				android:checked="true"/>
+			<RadioButton
     			android:id="@+id/MenuButtonChart"    			
     			android:text="@string/menu_chart"
     			android:drawableTop="@drawable/menu_chart_selector"       			 		
-    			style="@style/TabRadioStyle"
-    			android:checked="true"/>
+    			style="@style/TabRadioStyle" />
     		<RadioButton 
     			android:id="@+id/MenuButtonDatas"
     		    android:text="@string/menu_data"

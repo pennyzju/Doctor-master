@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jhuster.eweightscale"
+    package="com.bme.cty"
     android:versionCode="3"
     android:versionName="1.1.0" >
 
@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.jhuster.eweightscale.MainActivity"
+            android:name="com.bme.cty.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -20,21 +20,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.jhuster.eweightscale.ChartActivity"
+        <activity android:name="com.bme.cty.DiagnoseActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.jhuster.eweightscale.DataActivity"
+        <activity android:name="com.bme.cty.ChartActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.jhuster.eweightscale.SquareActivity"
+        <activity android:name="com.bme.cty.DataActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.jhuster.eweightscale.MoreActivity"
+        <activity android:name="com.bme.cty.SquareActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.jhuster.eweightscale.PersonalActivity"
+        <activity android:name="com.bme.cty.MoreActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.jhuster.eweightscale.SettingActivity"
+        <activity android:name="com.bme.cty.PersonalActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.jhuster.eweightscale.AboutActivity"
+        <activity android:name="com.bme.cty.SettingActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name="com.jhuster.eweightscale.WhatActivity"
+        <activity android:name="com.bme.cty.AboutActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.bme.cty.WhatActivity"
             android:screenOrientation="portrait"/>
     </application>
 
